@@ -26,5 +26,7 @@ the tax charged (7.6%)
 the total of the order
 The page look professional and polished
 
-img/index.JPG
-img/order.JPG
+![Sample Output](img/index.JPG)
+![Sample Output](img/order.JPG)
+
+
