@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cheech's Pizza</title>
+			<!--
+			Exam 1 Cheech's Pizza
+			Filename: order.html
+
+			Author: Kelli Stasiak
+			Date: 09/20/2017
+			CIS-131
+			-->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+			<link rel="stylesheet" href="styles.css">
+			<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+	</head>
+  <body >
+		<header class="container-fluid row">
+			<nav class="sitenavigation col-xs-6 col-md-3">
+				<ul>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="menu.html"> Menu </a></li>
+					<li><a href="order.html"> Order Now </a></li>
+				</ul>
+
+			</nav>
+
+			<img class="col-xs-6 col-md-2" src="img/cheech.png" width="200" alt="Cheech!"/>
+
+			<h1 class="col-xs-6 col-md-7">Welcome to Cheech's Pizza!</h1>
+		</header>
+		<div class="container row">
+			<div class="col-md-4" >
+				<h1 style="color:#00b100;">Step 1</h1>
+				<div>
+					<select class='form-control' id= 'numPizzas'></select><br>
+
+					<select class='form-control' id ='pizzaType'></select>
+				</div>
+			</div>
+			<div  class="col-md-4">
+				<h1 style="color:#00b100;">Step 2</h1>
+				<h3>Please Enter Your Information</h3>
+				<form>
+					First name:<br>
+					<input type="text" id="firstName" name="firstname" placeholder="First name" ><br>
+					Last name:<br>
+					<input type="text" name="lastname" placeholder="Last name"><br>
+					Telephone:<br>
+		  		<input type="tel" id="phone" name="usrtel" placeholder="555-555-5555"><br>
+				</form>
+				<br>
+				<button type="button" class="btn btn-success" id="submit" onclick="calculateOrder" value="submit">Place My Order</button>
+			</div>
+			<div class="col-md-4">
+				  <h1 style="color:#00b100;">Enjoy</h1>
+					<div id = "thankYou">
+
+					</div>
+			</div>
+		</div>
+
+		<footer class="container-fluid">905 Manitou Avenue &#9774; Manitou Springs &#9774; Colorado &#9774; 80829 &#9774; 719-555-0420</footer>
+		<script src="script.js"></script>
+	</body>
+	</html>
