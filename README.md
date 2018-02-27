@@ -25,3 +25,6 @@ the sub total of the pizza order
 the tax charged (7.6%)
 the total of the order
 The page look professional and polished
+
+img/index.jpg
+img/order.jpg
