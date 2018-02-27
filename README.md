@@ -1,35 +1,18 @@
-# 16.6 TextField
+# Cheech-s-Pizza
+Web Dev 2 Exam 1
 
-Write a program that sets the horizontal alignment and column-size properties of a text field dynamically.
+Exam Details
+
+Cheech’s Pizza Online Ordering Page
+
+You have been hired by Cheech’s Pizza to develop an online ordering form. Cheech would like to be able to have a page whereby customers can enter in their name and phone number, how many pizzas they would like to order and choose from a drop down selection which type of pizza they would like. For now, a customer can only order one type of pizza. (I know, weird, but it makes this assignment easier)
+
+Develop a page that follows these requirements: Create the page using Bootstrap and Bootstrap form classes Include a text box for name, phone number Create a selection box which allows a customer to order 1 to 10 pizzas. This looks like a great place for javascript. Use javascript to create a loop that prints the selection list choices. Create a selection box which allows a customer to order the type of pizza Create an array of a minimum of 5 pizza types Use javascript to write the selection items in the selection list. If Bob adds a new pizza flavor, all that he should have to do is add the new pizza type to the array and the selection list will populate based on the javascript code, and not by having to also manually edit the html When the customer has entered all the data, the customer will click a order button. There should be an addEventListener that produces a summary of the order Display somewhere on the form the customers name and phone number the number of pizzas they ordered the type of pizza they ordered the sub total of the pizza order the tax charged (7.6%) the total of the order The page look professional and polished
 
 ## Example Output
 
-![Sample Output](image/README.jpg)
-
-## Analysis Steps
-
-I needed to create radio buttons and text fields to recreate the example image that was given in the assignment
-
-### Design
-
-I needed to define 2 hboxes one that would hold the textfield and label for "JavaFX" which would be the item that would be manipulated
-by my second hBox that would hold radio buttons to control the position, and the column size text field that would change the amount of
-colums the first hBox holds.
-
-
-### Testing
-
-First, I got the first text box created, set the scene and tested the program to see if it was placed
-Second, I created the radio buttons, then check to see if they were showing up.
-Third, I created the handler for the radio buttons. I checked to make sure they were working
-Fourth, I created the column size textField. Again, I made sure it would show up in the bottom hBox
-Fifth, I made the handler that would control the function for the column size(this was tricky trying to figure out how to grab the value of the textField)
-Lastly, I worked to adjusting orientation of the labels, and the other objects on the screen.
-
-
-## Notes
-
-Still had some issues on trying to figure out how to align the objects within the pane.
+![Sample Output](image/index.jpg)
+![Sample Output](image/order.jpg)
 
 ## Do not change content below this line
 ## Adapted from a README Built With
