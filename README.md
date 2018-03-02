@@ -11,8 +11,8 @@ Develop a page that follows these requirements: Create the page using Bootstrap 
 
 ## Example Output
 
-![Sample Output](image/index.jpg)
-![Sample Output](image/order.jpg)
+![Sample Output](img/index.jpg)
+![Sample Output](img/order.jpg)
 
 ## Do not change content below this line
 ## Adapted from a README Built With
