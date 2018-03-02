@@ -11,8 +11,8 @@ Develop a page that follows these requirements: Create the page using Bootstrap 
 
 ## Example Output
 
-![Sample Output](Cheech's Pizza/img/index.JPG)
-![Sample Output](Cheech's Pizza/img/order.JPG)
+![alt text](Cheech-s-Pizza/Cheech's Pizza/img/index.JPG)
+![alt text](Cheech-s-Pizza/Cheech's Pizza/img/order.JPG)
 
 ## Do not change content below this line
 ## Adapted from a README Built With
